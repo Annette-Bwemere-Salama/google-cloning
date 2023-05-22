@@ -8,13 +8,21 @@
     <title>Google</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+<style>
+    .weigth {
+        font-weight: 100;
+        line-height: 20px;
+        font-family: Arial;
+    }
+</style>
 
 <body>
     <!-- start header -->
     <div class="header flex flex-row gap-5 justify-end m-4 text-[rgba(0,0,0,.87)]">
         <span
-            class=" inline-block leading-6 font-sans cursor-pointer hover:underline decoration-solid decoration-black">Gmail</span>
-        <span class="block cursor-pointer hover:underline decoration-solid decoration-black">Image</span>
+            class=" inline-block leading-6 cursor-pointer hover:underline decoration-solid decoration-black font-sans text-sm">Gmail</span>
+        <span
+            class="block cursor-pointer hover:underline decoration-solid decoration-black font-sans text-sm">Image</span>
         <span class="inline-block "><img alt="apps"
                 class="fill-current h-6 w-6 font-bold text-[#5f6368] cursor-pointer  hover:bg-[rgba(60,64,67,.12)] hover: rounded-full text-center "
                 src="./assets/apps_FILL0_wght400_GRAD0_opsz48.svg" /></span>
@@ -28,19 +36,35 @@
         <div class="logo mb-7">
             <img alt="logo" src="./assets/googlelogo_color_272x92dp-removebg-preview.png" class=" " />
         </div>
-        <div class="search rounded-full border-2  flex-1 flex justify-between p-3  w-[584px] cursor-text
+        <div class="search rounded-full border-[1px]  flex-1 flex justify-between p-3  w-[584px] cursor-text hover:shadow-md
         ">
             <div class="iconsearch flex justify-center text-center">
                 <img alt="icons search" src="./assets/search_FILL0_wght400_GRAD0_opsz48.svg" class="h-5 w-5 " />
             </div>
             <div class="flex gap-3">
-                <span><img alt="" src="./assets/mic_FILL0_wght400_GRAD0_opsz48.svg"
+                <span><img alt="" src="./assets/searchbyvoic-removebg-preview.png"
                         class="w-6 h-6 cursor-pointer" /></span>
-                <span><img alt="" src="./assets/photo_camera_FILL0_wght400_GRAD0_opsz48.svg"
-                        class="w-6 h-6 cursor-pointer" /></span>
+                <span><img alt="" src="./assets/google-lens_1.svg" class="w-5 h-5 cursor-pointer" /></span>
+
             </div>
         </div>
-        <div class=" Divbutton">
+        <div class=" Divbutton mt-7 flex gap-3">
+            <a href=""
+                class="bg-[#f8f9fa] text-[#3c4043] hover:border-[1px] hover:shadow-sm p-2 font-sans text-sm rounded-sm">Recherche
+                Google</a>
+            <a href=""
+                class="bg-[#f8f9fa] text-[#3c4043] hover:border-[1px] hover:shadow-sm p-2 font-sans text-sm rounded-sm">J'ai
+                de la
+                chance</a>
+        </div>
+        <div class="mt-7 flex gap-3">
+            <p class="weigth text-[#4d5156;] inline-block leading-3 font-sans gap-2">Google disponible en :
+                <span class="text-[#1a0dab] hover:underline decoration-blue-500 cursor-pointer">Kiswahili</span>
+                <span class="text-[#1a0dab] hover:underline decoration-blue-500 cursor-pointer">Lingala</span>
+                <span class="text-[#1a0dab] hover:underline decoration-blue-500 cursor-pointer">Luo</span>
+                <span class="text-[#1a0dab] hover:underline decoration-blue-500 cursor-pointer">Tshiluba</span>
+                <span class="text-[#1a0dab] hover:underline decoration-blue-500 cursor-pointer">Kongo</span>
+            </p>
         </div>
     </div>
     <!-- End main -->
