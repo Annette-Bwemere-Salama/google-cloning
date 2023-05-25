@@ -16,9 +16,9 @@
     }
 </style>
 
-<body>
+<body class="flex flex-col justify-between">
     <!-- start header -->
-    <div class="header flex flex-row gap-5 justify-end m-4 text-[rgba(0,0,0,.87)]">
+    <header class="header flex flex-row gap-5 justify-end m-4 text-[rgba(0,0,0,.87)]">
         <span
             class=" inline-block leading-6 cursor-pointer hover:underline decoration-solid decoration-black font-sans text-sm">Gmail</span>
         <span
@@ -29,10 +29,10 @@
         <span class="block hover:bg-[rgba(60,64,67,.12)] hover: rounded-full text-center p-2"><img alt="profil"
                 src="./assets/profil.png"
                 class="h-8 w-8  cursor-pointer hover:bg-[rgba(60,64,67,.12)] hover: rounded-full text-center " /></span>
-    </div>
+    </header>
     <!-- end  headers  -->
     <!-- start main  -->
-    <div class="main flex justify-center items-center mt-32 flex-col">
+    <main class="main flex justify-center items-center mt-32 flex-col">
         <div class="logo mb-7">
             <img alt="logo" src="./assets/googlelogo_color_272x92dp-removebg-preview.png" class=" " />
         </div>
@@ -66,29 +66,23 @@
                 <span class="text-[#1a0dab] hover:underline decoration-blue-500 cursor-pointer">Kongo</span>
             </p>
         </div>
-    </div>
+    </main>
     <!-- End main -->
 
     <!-- Start footer -->
-    <div class="footer flex flex-col justify-end align-bottom bg-[#f2f2f2] text-[#70757a] ">
-        <div class="m-1">
-            <h1>Congo-Kinshasa</h1>
+    <footer class="bg-gray-50  border-gray-400 flex flex-col  gap-5 justify-center mt-44 p-4">
+        <h1>Congo-Kinshasa</h1>
+        <div class="flex justify-between bg-gray-50 border-t border-gray-400">
+
+            <div>A propos</div>
+            <div>Publicité</div>
+            <div>Entreprise</div>
+            <div>Comment fonctionne la recherche Google ?</div>
+            <div>Confidentialité</div>
+            <div>Conditions</div>
+            <div>Paramètres</div>
         </div>
-        <br class="">
-        <div class="flex justify-between m-1">
-            <div>
-                <span>A propos</span>
-                <span>Publicité</span>
-                <span>Entreprise</span>
-                <span>Comment fonctionne la recherche Google ?</span>
-            </div>
-            <div>
-                <span>Confidentialité</span>
-                <span>Conditions</span>
-                <span>Paramètres</span>
-            </div>
-        </div>
-    </div>
+    </footer>
     <!-- End footer  -->
 </body>
 
